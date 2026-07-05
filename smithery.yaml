@@ -1,0 +1,15 @@
+# Smithery registry config — https://smithery.ai
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      provenanceApiUrl:
+        type: string
+        description: Provenance API base URL (defaults to the hosted service)
+  commandFunction: |-
+    (config) => ({
+      command: "node",
+      args: ["src/index.js"],
+      env: config.provenanceApiUrl ? { PROVENANCE_API_URL: config.provenanceApiUrl } : {}
+    })
