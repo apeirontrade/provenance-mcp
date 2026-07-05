@@ -1,16 +1,35 @@
 {
   "name": "provenance-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server that checks the wash-traffic / organic-revenue risk of Algorand x402 endpoints before your agent trusts or pays them. Free quick checks; paid deep reports via x402.",
   "license": "MIT",
   "type": "module",
-  "bin": { "provenance-mcp": "src/index.js" },
-  "files": ["src"],
-  "engines": { "node": ">=18" },
-  "keywords": ["mcp", "modelcontextprotocol", "x402", "algorand", "agentic-payments", "wash-trading", "trust", "reputation"],
-  "repository": { "type": "git", "url": "https://github.com/apeirontrade/provenance-mcp" },
+  "bin": {
+    "provenance-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "x402",
+    "algorand",
+    "agentic-payments",
+    "wash-trading",
+    "trust",
+    "reputation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apeirontrade/provenance-mcp"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^3.24.1"
-  }
+  },
+  "mcpName": "io.github.apeirontrade/provenance-mcp"
 }
