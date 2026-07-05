@@ -52,4 +52,15 @@ guilty of anything.
 - Env: `PROVENANCE_API_URL` to point at a different Provenance deployment.
 - Free tier: 30 checks/hour/IP.
 
+## Guard your x402 client directly
+
+Building an agent that pays over x402? [`provenance-guard`](https://github.com/apeirontrade/provenance-guard)
+wraps any x402-paying fetch and runs this same check automatically **before any
+money moves** — one line, zero dependencies:
+
+```typescript
+import { createGuard } from "provenance-guard";
+const guarded = createGuard().guardedFetch(fetchWithPayment);
+```
+
 MIT · Provenance — the trust layer for machine-payable endpoints.
