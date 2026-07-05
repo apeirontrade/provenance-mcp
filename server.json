@@ -6,14 +6,13 @@
     "url": "https://github.com/apeirontrade/provenance-mcp",
     "source": "github"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://github.com/apeirontrade/provenance-mcp",
   "packages": [
     {
-      "registryType": "mcpb",
-      "identifier": "https://github.com/apeirontrade/provenance-mcp/releases/download/v0.1.0/provenance-mcp.mcpb",
-      "version": "0.1.0",
-      "fileSha256": "48470144bedc24305ccfd30fae43f072c55023e53e5e7b2754aae7e50f2ece27",
+      "registryType": "npm",
+      "identifier": "provenance-mcp",
+      "version": "0.1.1",
       "transport": {
         "type": "stdio"
       },
@@ -26,6 +25,15 @@
           "name": "PROVENANCE_API_URL"
         }
       ]
+    },
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/apeirontrade/provenance-mcp/releases/download/v0.1.1/provenance-mcp.mcpb",
+      "version": "0.1.1",
+      "fileSha256": "81f7c8acb900e60650fe1299c36c833215256f5c166c1d647538595c284c29b3",
+      "transport": {
+        "type": "stdio"
+      }
     }
   ]
 }

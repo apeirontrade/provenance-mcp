@@ -22,7 +22,7 @@ Deep forensics are x402-paid on the same API: `/score` $0.05 · `/report` $0.50
 
 **Claude Code**
 ```bash
-claude mcp add provenance -- npx -y github:apeirontrade/provenance-mcp
+claude mcp add provenance -- npx -y provenance-mcp
 ```
 
 **Claude Desktop / any MCP client** (`mcpServers` config):
@@ -31,7 +31,7 @@ claude mcp add provenance -- npx -y github:apeirontrade/provenance-mcp
   "mcpServers": {
     "provenance": {
       "command": "npx",
-      "args": ["-y", "github:apeirontrade/provenance-mcp"]
+      "args": ["-y", "provenance-mcp"]
     }
   }
 }
