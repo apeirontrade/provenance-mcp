@@ -1,0 +1,18 @@
+{
+  "manifest_version": "0.2",
+  "name": "provenance-mcp",
+  "display_name": "Provenance — x402 Endpoint Trust",
+  "version": "0.1.0",
+  "description": "Check the wash-traffic / organic-revenue risk of Algorand x402 endpoints before your agent trusts or pays them.",
+  "author": { "name": "apeirontrade" },
+  "repository": { "type": "git", "url": "https://github.com/apeirontrade/provenance-mcp" },
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "src/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/src/index.js"]
+    }
+  }
+}
