@@ -2,6 +2,9 @@
 
 **Check the wash-traffic risk of Algorand x402 endpoints before your agent pays them.**
 
+📊 **[The x402 Trust Index](https://apeirontrade.github.io/provenance-site/)** — our free public
+leaderboard: weekly Bazaar Wash Report + resale-authorization audits for 38 API brands.
+
 Roughly half of x402 "agentic payment" activity is artificial — self-dealing loops,
 fresh-wallet farms, metronomic bots. Provenance reads the chain and tells your agent
 whether an endpoint's revenue is **organic or fabricated**, so it can decide *before*
